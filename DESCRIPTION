@@ -1,0 +1,21 @@
+Package: LearnerRegrQuantregForest
+Type: Package
+Title: Quantile Regression Forests for 'mlr3'
+Version: 2026.22.11
+Author: person("Jules", "Ponssard", email = "julesponssard@gmail.com",
+    role = c("aut", "cre"))
+Maintainer: Jules Ponssard <julesponssard@gmail.com>
+Description: Provides a regression learner that connects 'quantregForest'
+    to 'mlr3'. The learner exposes the number of trees as a hyperparameter
+    and returns conditional mean predictions. It can be used in resampling
+    and benchmarks alongside other regression learners.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    mlr3,
+    paradox,
+    quantregForest,
+    R6,
+    stats
+Suggests:
+    testthat

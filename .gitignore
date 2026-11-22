@@ -1,0 +1,34 @@
+# R sessions and local configuration
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+.Renviron
+
+# RStudio local state
+.Rproj.user/
+
+# Package build and check outputs
+*.Rcheck/
+/LearnerRegrQuantregForest_*.tar.gz
+/LearnerRegrQuantregForest_*.zip
+/00LOCK*/
+
+# Compiled files
+*.o
+*.so
+*.dll
+*.a
+
+# Automatically generated R plots
+Rplots.pdf
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
